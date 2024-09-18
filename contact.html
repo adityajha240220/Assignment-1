@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Aditya's Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          
+    </header>
+
+    <main>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="subject">Subject:</label><br>
+            <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="project">Project Inquiry</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <address>
+            Aditya Aman<br>
+            Shyam Kunj, Maruti Kunj<br>
+            Gurugram, Haryana, 122102<br>
+            <a href="mailto:adityajha240220@gmail.com">adityajha240220@gmail.com</a>
+        </address>
+
+        <section>
+            <h2>Follow Me</h2>
+            <ul>
+                <li><a href="https://github.com/adityaaman">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/aditya-jha-06a998289/">LinkedIn</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Aditya Aman. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
